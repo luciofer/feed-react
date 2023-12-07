@@ -9,7 +9,7 @@ Project in development, created as part of my ReactJs studies.
 - JavaScript and TypeScript
 
 
-
+![preview](./public/feed.PNG)
 
 ## ✉ Contact
 

@@ -1,6 +1,5 @@
 import styles from './Post.module.css'
 
-
 export function Post(){
     return (
         <article className={styles.post}>
@@ -17,16 +16,27 @@ export function Post(){
             </header>
 
             <div className={styles.content}>
-                <p>Fala galeraa 👋</p>
-                <p>Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀</p>
-                <p><a href="#"> jane.design/doctorcare</a></p>
+                <p>Hey there 👋</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestias sint numquam quidem, corporis, ipsa magni ducimus vel pariatur officia architecto maiores nostrum voluptas nisi non voluptates animi consectetur adipisci. 🚀</p>
+                <p><a href="#"> lf.dev/newproject</a></p>
                 <p>
-                    <a href="#">#novoprojeto</a>{' '}
+                    <a href="#">#newproject</a>{' '}
                     <a href="#">#nlw</a>{' '}
                     <a href="#">#rocketseat</a>
                 </p>
             </div>
 
+            <form className={styles.commentForm}>
+                <strong> Leave a comment!</strong>
+                <textarea 
+                    placeholder='Send a comment...'
+                />
+                <footer>
+                    <button type='submit'>Publish</button>
+                </footer>
+            </form>
+
         </article>
     )
 }
+
