@@ -28,8 +28,7 @@ export function Comment({ content, onDeleteComment }: CommentProps){
             <Avatar 
                 hasBorder={false} 
                 src="https://media.licdn.com/dms/image/D4D03AQFUIaMMNRQG7Q/profile-displayphoto-shrink_800_800/0/1686611375662?e=1707350400&v=beta&t=EYdp8K0HfBGLqEKPVM46M9Wggj57QMAmTYAzAEkJJ6g" 
-                alt= " "
-                
+                alt= " "          
             />
 
             <div className={styles.commentBox}>
